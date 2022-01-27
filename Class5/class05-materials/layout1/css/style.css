@@ -2,15 +2,22 @@
     box-sizing: border-box;
 }
 
-header, footer { 
+header, footer {
     height: 100px;
     border: 1px solid black;
     clear: both;
 }
 
-section {
-    height: 300px;
+.penguin {
+    height: 200px;
     width: 33.3333%;
+    border: 1px solid black;
+    float: left;
+}
+
+.turtle {
+    height: 300px;
+    width: 50%;
     border: 1px solid black;
     float: left;
 }
