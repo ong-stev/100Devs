@@ -12,20 +12,9 @@ section {
     height: 500px;
     border: 1px solid black;
     float: left;
-}
-
-.penguin {
     width: 16.6667%;
 }
 
 .turtle {
     width: 50%;
-}
-
-.monkey {
-    width: 16.6667%;
-}
-
-.seal {
-    width: 16.6667%;
 }
