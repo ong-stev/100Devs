@@ -1,0 +1,153 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: ;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 50px;
+  background: black;
+  color: white;
+}
+
+nav *{
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 100%;
+}
+.bbcLogo {
+  height: 50px;
+  padding: 10px;
+}
+
+.bottomNews {
+  width: 33.3333%;
+  float: left;
+}
+.headlinerNews {
+  width: 50%;
+  height: 500px;
+  float: left;
+  position: relative;
+  padding: 1%;
+  margin: 1% 0;
+  display: inline-block;
+}
+.regularNews {
+  width: 46%;
+  height: 250px;
+  float: left;
+  margin: 1% 0;
+  display: inline-block;
+  position: relative;
+}
+
+.Israel {
+  height: 500px;
+}
+
+.newsImages {
+  height: 250px;
+}
+
+main h1 {
+  position: absolute;
+  bottom: 35px;
+  left: 40px;
+  color: white;
+}
+
+main p {
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  color: white ;
+}
+
+main span {
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  color: white;
+  text-transform: uppercase;
+  border-left: 3px solid red;
+  padding-left: 10px;
+}
+
+.bottomNewsImages {
+  width: 100%;
+  padding: 10px;
+  margin: 1%;
+}
+
+.otherNews p, .otherNews h3, .otherNews span{
+  padding: 10px;
+  margin: 1%;
+}
+
+.americanh3, .vaccinateh3, .productivityh3, .folkSingerh3{
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  color: white;
+}
+.americanSpan, .vaccinateSpan, .productivitySpan, .folkSingerSpan {
+  bottom: 8px;
+  left: 10px;
+  border-left: 3px solid skyblue;
+}
+
+.vaccinateSpan {
+  border-left: 3px solid red;
+}
+
+.productivitySpan {
+  border-left: 3px solid lightskyblue;
+}
+
+.folkSingerSpan {
+  border-left: 3px solid purple;
+}
+
+section > h2 {
+  padding-top: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,177 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav,main,aside, .bottomSection{
+  float: left;
+  width: 13%;
+}
+main {
+  width: 45%;
+}
+aside {
+  width: 38%;
+}
+
+.bottomSection {
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+  padding: 10% 60% 5% 12%;
+}
+
+.navUL, .orangeText, .login {
+  padding: 10% 20% 50% 12%; 
+  line-height: 2;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #a4a4a4;
+}
+
+.fa-magnifying-glass{
+  padding-left: 4%;
+  font-size: 1.6rem;
+}
+.orangeText, .login {
+  font-size: 1.6rem;
+}
+
+.orangeText {
+  color: #f6ac32;
+  font-weight: bold;
+  padding: 10% 20% 50% 13%;
+}
+
+.navUL li a {
+  color: #a4a4a4;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.extraCrunch, .mainh1, .mainp {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+main {
+  margin-top: 1%;
+}
+
+.extraCrunch {
+  color: #e3ba68;
+  font-weight: bold;
+}
+
+.mainh1, .ulh2, .sectionh2{
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.mainp {
+  padding: 2% 8% 2% 0;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #aaaaaa;
+}
+
+.author {
+  font-size: 1.4rem;
+  font-weight: 600;
+  float: left;
+}
+
+.image1 {
+  margin: 1% 0 2% 0;
+  float: left;
+  clear:both
+}
+
+aside {
+  margin: 0% 0% 0% 2%;
+}
+.ulh2 {
+  clear:both;
+  font-size: 3.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  padding: 1% 4% 3% 0;
+}
+
+.bottomSection {
+  width: 87%;
+  float: right;
+}
+
+.bottomSectionLeft, .bottomSectionMiddle, .bottomSectionRight {
+  float: left;
+  width: 33.3333%;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1% 1% 1% 0;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #eeeeee;
+}
+.sectionh2 {
+  padding: 0 20% 0 0;
+}
+
+.bottomSection .author {
+  margin: 1% 0;
+  padding: 1% 0 1% 0;
+}
+.bottomSection .date {
+  width: 100%;
+  float: left;
+  font-size: 1.4rem;
+  color: #a4a4a4;
+}
+
+.bottomSectionMiddle {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 0 9% 0 0;
+  color: #9a9a9a;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
